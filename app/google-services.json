@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "381206830294",
+    "firebase_url": "https://newspaper-fc00d.firebaseio.com",
+    "project_id": "newspaper-fc00d",
+    "storage_bucket": "newspaper-fc00d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381206830294:android:a359fb726a42d7c8",
+        "android_client_info": {
+          "package_name": "com.newspaper.chaudang.newspaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381206830294-8lbdufnprcttd7qdfbh1159i1fn3sgpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newspaper.chaudang.newspaper",
+            "certificate_hash": "84de2b965df26e8882f3fe3e7e6533257efdd519"
+          }
+        },
+        {
+          "client_id": "381206830294-uger2erqc5iqccfeool32bffjtj1it3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2GsADyCKZBBLfIHu1yyoxWuluBmWymdI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381206830294-uger2erqc5iqccfeool32bffjtj1it3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

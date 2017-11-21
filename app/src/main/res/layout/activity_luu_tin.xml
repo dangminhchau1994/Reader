@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newspaper.chaudang.newspaper.Activity.LuuTinActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ToolLuuTin"
+        app:title="Tin đã lưu"
+        app:titleTextColor="@color/first_text"
+        app:subtitleTextColor="@color/secondary_text"
+        android:background="#0091EA"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <ListView
+        android:id="@+id/listLuuTin"
+        android:divider="#0091EA"
+        android:dividerHeight="0.1dp"
+        android:padding="3dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</RelativeLayout>

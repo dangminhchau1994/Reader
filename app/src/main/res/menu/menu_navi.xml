@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Nội dung">
+
+        <menu>
+
+            <item android:id="@+id/trangchu"
+                android:title="Trang chủ"
+                android:icon="@drawable/hone"/>
+
+            <item android:id="@+id/tingui"
+                android:title="Gửi tin cho chúng tôi"
+                android:icon="@drawable/send"/>
+
+            <item android:id="@+id/luutin"
+                android:title="Tin đã lưu"
+                android:icon="@drawable/save"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Liên hệ">
+
+        <menu>
+
+            <item android:id="@+id/gopy"
+                android:title="Góp ý ứng dụng"
+                android:icon="@drawable/mail"
+                />
+
+            <item android:id="@+id/lienhe"
+                android:title="Thông tin tòa soạn"
+                android:icon="@drawable/phone"/>
+
+        </menu>
+
+    </item>
+</menu>

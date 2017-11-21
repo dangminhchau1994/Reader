@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/myHeader"
+    android:background="#0091EA"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <ImageView
+        android:id="@+id/headerImg"
+        android:src="@drawable/tintuc"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_marginLeft="25dp"
+        android:layout_width="120dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:text="Tin Tức Online"
+        android:layout_marginLeft="15dp"
+        android:textSize="25sp"
+        android:layout_marginTop="3dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.newspaper.chaudang.newspaper.Activity.GuiTinActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolGuiTin"
+        app:titleTextColor="@color/first_text"
+        app:subtitleTextColor="@color/secondary_text"
+        android:background="#0091EA"
+        app:title="Gửi tin cho chúng tôi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textDinhKem"
+        android:layout_below="@+id/toolGuiTin"
+        android:text="Thông tin đính kèm"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:background="@null"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/btnChup"
+        android:src="@drawable/hinhchup"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/noidungGui"
+        android:layout_alignRight="@+id/textDinhKem"
+        android:layout_alignEnd="@+id/textDinhKem"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp" />
+
+    <ImageButton
+        android:id="@+id/btnChon"
+        android:layout_below="@id/textDinhKem"
+        android:src="@drawable/gui"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:background="@null"
+        android:layout_toRightOf="@+id/btnChup"
+        android:layout_marginLeft="90dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:id="@+id/imgHinhGui"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/btnChup"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/noidungGui"
+        android:text="Nội dung"
+        android:layout_marginTop="120dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnChon"
+        android:layout_alignLeft="@+id/textDinhKem"
+        android:layout_alignStart="@+id/textDinhKem" />
+
+    <EditText
+        android:id="@+id/edtNoiDung"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/custom_edit"
+        android:layout_width="390dp"
+        android:gravity="start"
+        android:paddingLeft="5dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/noidungGui"
+        android:layout_alignLeft="@+id/noidungGui"
+        android:layout_alignStart="@+id/noidungGui" />
+
+    <TextView
+        android:id="@+id/emailGui"
+        android:text="Email/Số điện thoại"
+        android:layout_below="@+id/edtNoiDung"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtEmailGui"
+        android:background="@drawable/custom_edit"
+        android:layout_below="@+id/emailGui"
+        android:layout_width="390dp"
+        android:layout_alignLeft="@+id/noidungGui"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="5dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnGuiTin"
+        android:text="Gửi"
+        android:layout_marginTop="45dp"
+        android:background="#0091EA"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/edtEmailGui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+         />
+</RelativeLayout>

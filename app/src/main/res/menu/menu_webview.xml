@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/font"
+        android:title="font"
+        android:icon="@drawable/font"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/luutin"
+        android:title="Luu"
+        android:icon="@drawable/flag"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/sharetin"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@drawable/share"/>
+
+
+
+</menu>

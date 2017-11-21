@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:text="Thông tin tòa soạn"
+        android:typeface="serif"
+        android:textSize="30sp"
+        android:textColor="#0091EA"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dialogDate"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:textColor="#5e5757"
+        android:textStyle="bold"
+        android:layout_below="@+id/dialogTitle"
+        android:text="Thành lập ngày 31/07/2017"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dialogAuthor"
+        android:layout_below="@+id/dialogDate"
+        android:text="Tác giả: Đăng Minh Châu"
+        android:typeface="serif"
+        android:textColor="#5e5757"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dialogTel"
+        android:layout_below="@id/dialogAuthor"
+        android:textColor="#5e5757"
+        android:typeface="serif"
+        android:text="Điện thoại: 01268772167"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Đóng"
+        android:id="@+id/dialogClose"
+        android:layout_below="@+id/dialogTel"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:textColor="#d92e2e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

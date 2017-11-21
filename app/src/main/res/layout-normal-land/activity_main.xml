@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/myDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/layoutContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--Toolbar-->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/myTool"
+                android:background="#0091EA"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_marginLeft="198dp"
+                    android:src="@drawable/tintuc"
+                    android:layout_marginBottom="3dp"
+                    android:layout_width="130dp"
+                    android:layout_height="55dp" />
+
+            </android.support.v7.widget.Toolbar>
+
+            <!--TabLayout-->
+            <android.support.design.widget.TabLayout
+                app:tabMode="scrollable"
+                app:tabTextColor="#d7cdcd"
+                app:tabGravity="fill"
+                android:layout_marginTop="60dp"
+                app:tabIndicatorHeight="1dp"
+                app:tabIndicatorColor="#0091EA"
+                android:id="@+id/myTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+            </android.support.design.widget.TabLayout>
+
+            <!--ViewPager-->
+            <android.support.v4.view.ViewPager
+                android:id="@+id/myViewPager"
+                android:layout_below="@+id/myTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            </android.support.v4.view.ViewPager>
+
+
+        </RelativeLayout>
+
+        <!--Navi-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/myNavi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:headerLayout="@layout/navi_header"
+            app:menu="@menu/menu_navi"
+            android:layout_gravity="start">
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+</RelativeLayout>
